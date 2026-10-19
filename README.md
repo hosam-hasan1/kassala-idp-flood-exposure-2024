@@ -1,6 +1,6 @@
 # Flood exposure of displaced people in Kassala, Sudan – July 2024 rains
 
-*Self-directed project · Google Earth Engine · Python · October 2026 · Hosam Hasan Abdalla*
+*Self-directed project · Google Earth Engine · Python  · Hosam Hasan Hosain Abdalla*
 
 ![Kassala IDP exposure map](Map_Kassala_IDP_exposure_2024.png)
 
