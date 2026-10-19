@@ -38,19 +38,18 @@ Rainfall 24–28 July 2024 (satellite) vs station:
 
 ## Repository contents
 
-| Path | What it is |
+| File | What it is |
 |---|---|
-| `gee/01_find_flood_date_sentinel1.js` | Earth Engine: new water in every 2024 Sentinel-1 image vs a normal year (same dates, same track) |
-| `gee/02_idp_exposure.js` | Earth Engine: distance to the Gash and hills, drainage lines and rainfall at each IOM location; CSV export |
-| `colab/make_idp_exposure_map.py` | Python (Google Colab): classification, map and ranked table |
-| `data/IDP_exposure_Kassala_2024_v2.csv` | Exported values per location |
-| | `Map_Kassala_IDP_exposure_2024.png` | Final map, 300 dpi |
-
+| `01_find_flood_date_sentinel1.js` | Earth Engine: new water in every 2024 Sentinel-1 image vs a normal year (same dates, same track) |
+| `02_idp_exposure.js` | Earth Engine: distance to the Gash and hills, drainage lines and rainfall at each IOM location; CSV export |
+| `make_idp_exposure_map.py` | Python (Google Colab): classification, map and ranked table |
+| `IDP_exposure_Kassala_2024_v2.csv` | Exported values per location |
+| `Map_Kassala_IDP_exposure_2024.png` | Final map, 300 dpi |
 ## How to reproduce
 
-1. Paste `gee/02_idp_exposure.js` into the [Earth Engine Code Editor](https://code.earthengine.google.com) and click Run.
+1. Paste `02_idp_exposure.js` into the [Earth Engine Code Editor](https://code.earthengine.google.com) and click Run.
 2. In the Tasks tab, run the export. The CSV goes to the Google Drive folder `ProjectB_GEE`.
-3. In Google Colab, install `contextily` and `matplotlib-scalebar`, mount Google Drive and run `colab/make_idp_exposure_map.py`.
+3. In Google Colab, install `contextily` and `matplotlib-scalebar`, mount Google Drive and run `make_idp_exposure_map.py`.
 
 ## Data
 
