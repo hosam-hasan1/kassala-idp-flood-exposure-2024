@@ -2,7 +2,7 @@
 
 *Self-directed project · Google Earth Engine · Python · October 2026 · Hosam Hasan Abdalla*
 
-![Kassala IDP exposure map](maps/Map_Kassala_IDP_exposure_2024.png)
+![Kassala IDP exposure map](Map_Kassala_IDP_exposure_2024.png)
 
 On 25–26 July 2024 heavy rain fell on Kassala in eastern Sudan: 118 mm in Kassala town, 95 mm at Wad Sherifey and 74 mm in Gharb Kassala, according to OCHA. About 10,000 people were affected, most of them people who had just fled fighting in Sennar State. Their tents, latrines and the roads around them flooded.
 
@@ -44,7 +44,7 @@ Rainfall 24–28 July 2024 (satellite) vs station:
 | `gee/02_idp_exposure.js` | Earth Engine: distance to the Gash and hills, drainage lines and rainfall at each IOM location; CSV export |
 | `colab/make_idp_exposure_map.py` | Python (Google Colab): classification, map and ranked table |
 | `data/IDP_exposure_Kassala_2024_v2.csv` | Exported values per location |
-| `maps/` | Final map, 300 dpi |
+| | `Map_Kassala_IDP_exposure_2024.png` | Final map, 300 dpi |
 
 ## How to reproduce
 
